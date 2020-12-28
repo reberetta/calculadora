@@ -2,11 +2,7 @@
 #which pip 3 - caminho de instalação do pip3
 
 from flask import Flask
-from calculator import soma
-from calculator import sub
-from calculator import mult
-from calculator import div
-
+from calculator import soma, sub, mult, div
 
 app = Flask(__name__)
 
